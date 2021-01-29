@@ -1,0 +1,69 @@
+<style>
+header,
+nav,
+section,
+ul{
+ 
+}
+li{
+  display: inline;
+            
+}
+li a{            
+  text-decoration:none;
+  padding: 11px;   
+}
+ a:hover {
+  text-decoration: underline;
+}    
+ul.breadcrumb li+li:before {
+color: black;
+text-align: center;
+padding: 11px;    
+content: "/";    
+}
+.products-item{
+  display: flex; 
+}
+
+.card-{  
+
+border:5px solid gray;
+width:200px;
+height: 360PX;
+margin: 10px;
+}
+
+img.item-img{ 
+  widows: 144px;
+  height:144px;
+  border: 15px solid black;
+  margin: 21px;
+}
+
+
+
+footer {
+  background: #659494;
+  border-radius: 5px;
+  color: white;
+  font-family: arial, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+header:before,
+nav:before,
+section:before,
+footer:before {
+  content: '<';
+}
+header:after,
+nav:after,
+section:after,
+footer:after {
+  content: '>';
+}
+</style>
