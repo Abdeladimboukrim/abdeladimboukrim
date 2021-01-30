@@ -1,17 +1,17 @@
-<style>
-header,
-nav,
-section,
-ul{
- 
+
+.logo{ 
+  width: 8%;
+  padding: 22;
 }
 li{
   display: inline;
-            
+         
 }
 li a{            
   text-decoration:none;
+  
   padding: 11px;   
+  margin-bottom: 23px;
 }
  a:hover {
   text-decoration: underline;
@@ -22,48 +22,33 @@ text-align: center;
 padding: 11px;    
 content: "/";    
 }
+h1{
+  margin-left: 33px;
+}
+p{
+  margin-left: 33px;
+}
+.title{
+  margin-left: 10px;
+}
 .products-item{
   display: flex; 
+  margin: 11px;  
 }
 
 .card-{  
 
 border:5px solid gray;
-width:200px;
-height: 360PX;
-margin: 10px;
+width:23%;
+height: 30%;
+margin: auto;
 }
 
 img.item-img{ 
-  widows: 144px;
-  height:144px;
-  border: 15px solid black;
+  width:  78%;  
   margin: 21px;
 }
 
 
 
-footer {
-  background: #659494;
-  border-radius: 5px;
-  color: white;
-  font-family: arial, sans-serif;
-  font-size: 30px;
-  text-align: center;
-  padding: 30px;
-  margin-bottom: 20px;
-}
-
-header:before,
-nav:before,
-section:before,
-footer:before {
-  content: '<';
-}
-header:after,
-nav:after,
-section:after,
-footer:after {
-  content: '>';
-}
 </style>
