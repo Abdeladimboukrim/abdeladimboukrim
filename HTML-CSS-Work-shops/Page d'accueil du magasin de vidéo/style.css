@@ -4,8 +4,7 @@
   padding: 22;
 }
 li{
-  display: inline;
-         
+  display: inline;         
 }
 li a{            
   text-decoration:none;
@@ -26,14 +25,16 @@ h1{
   margin-left: 33px;
 }
 p{
+  width: 30%;
   margin-left: 33px;
 }
-.title{
-  margin-left: 10px;
+h5{
+ font-size: px;
 }
 .products-item{
   display: flex; 
   margin: 11px;  
+  align-content: center;
 }
 
 .card{  
@@ -49,6 +50,55 @@ img.item-img{
   margin: 21px;
 }
 
+h5:last-child {
+  color: rgb(28, 167, 28);
+}
 
+
+@media only screen and (max-width: 600px) {
+
+
+  .logo{
+    width: 65%;
+    display: block;
+    padding-left: 10%;
+    margin-bottom: 5%;
+
+    
+    
+  }
+  .products-item {
+    display: block;
+    padding:  24PX;
+    
+  }
+  .card{  
+
+    align-items: center;
+    border:5px solid gray;
+    width:96%;
+    height: 30%;
+    margin-bottom:22px; 
+    
+   
+  }
+  h5:last-child {
+    color: rgb(28, 167, 28);
+  }
+  img.item-img{ 
+    width:  80%;  
+    margin: 10%; 
+
+  }
+  p{
+    width: 90%;
+    margin-left: 33px;
+  }
+  h5:last-child {
+    color: rgb(28, 167, 28);
+  }
+  .title{
+    text-align: center;    
+  }
 
 </style>
