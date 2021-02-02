@@ -8,19 +8,36 @@
 </head>
 <body>
 <div class="form"> 
-    <form  >
+    <form>
+        <div>
         <label for="client-name" class="Name"> Enter your Name: </label>
         <input class="rectangle" type="text" name="client-name" value="Tape your Name" >
-
+        </div>
+        <div>
         <label for="client-City" class="City"> Enter your City:             </label>
         <input class="rectangle" type="text" name="client-name" value="Tape your City Name">
+        </div> 
 
+        <div >
+        <label for="client-propriété">Type de propriété:</label>
+    <select class="rectangle" name="local"  >
+        <option value="Appartement">Appartement</option>
+        <option value="Maision">Maision</option>
+        <option value="oMini villa">Mini villa</option>
+        <option value="Villa">Villa</option>
+    </select>
+        </div>
+        <div>
         <label for="client-rooms" class="Rooms"> Enter Nember of rooms : </label>
         <input class="rectangle" type="number" name="client-name" >
-
+        </div>
+        <div>
         <label for="client-price" class="Price"> Enter Range price :    </label>
         <input class="rectangle" type="number" name="client-name" > 
-
+        </div>
+        <div class="sub">
+        <button   type="submit" form="nameform" value="">Search</button>
+        </div>  
     </form>
 </div>
 </body>

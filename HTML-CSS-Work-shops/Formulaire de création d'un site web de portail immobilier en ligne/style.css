@@ -1,30 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background:url(PHOTO.jpg) no-repeat ;
-    background-size: cover;  
-    
+    background-size: cover;      
 }
+
+       
+
 label{
-    padding-top: 10px;
+    padding: 10px;
     background-color: #bbd1fa;
     border-radius: 15px;
-    padding: 10px;
+    float: left;
 }
-.form{
-    
-    background-color: rgba(76, 129, 226, 0.5) ;
+.form{    
+    background-color: #4c81e280;
     margin: auto;
     width: 50%;
-    margin-top: 40px;
-    padding: 30px;
+    margin-top: 111px;
+    padding: 10px;
     border: solid#496fec;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 .rectangle{
     background-color: #bbd1fa;
-    padding: 10px;
+    padding: 12px;
+    margin: 6px;
+    width: 20%;
+    color: #020202;
     border:solid #496fec;
     border-radius: 5px;
     margin-left:55%;
     display: flex;
-    flex-direction: row;    
 }
+.sub{
+    width: 20%;
+    padding: 10px;
+    background-color: #bbd1fa;
+    border-radius: 15px;
+    margin-left: 55%;
+    text-align: center;
+}  
+    
